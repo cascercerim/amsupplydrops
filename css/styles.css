@@ -4307,6 +4307,10 @@ input[type="button"].btn-block {
   align-items: center;
   justify-content: space-between;
 }
+img .img-logo {
+  max-width: 500px;
+  height: 400;
+}
 .navbar-brand {
   display: inline-block;
   padding-top: 0.3125rem;
@@ -4606,9 +4610,9 @@ input[type="button"].btn-block {
   color: rgba(0, 0, 0, 0.5);
   border-color: rgba(0, 0, 0, 0.1);
 }
-.navbar-light .navbar-toggler-icon {
+/* .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
+} */
 .navbar-light .navbar-text {
   color: rgba(0, 0, 0, 0.5);
 }
@@ -10217,40 +10221,8 @@ a.text-secondary:focus {
   color: #494f54 !important;
 }
 
-.text-success {
-  color: #28a745 !important;
-}
-
-a.text-success:hover,
-a.text-success:focus {
-  color: #19692c !important;
-}
-
-.text-info {
-  color: #17a2b8 !important;
-}
-
-a.text-info:hover,
-a.text-info:focus {
-  color: #0f6674 !important;
-}
-
 .text-warning {
   color: #b1a688 !important;
-}
-
-a.text-warning:hover,
-a.text-warning:focus {
-  color: #e6b301 !important;
-}
-
-.text-danger {
-  color: #dc3545 !important;
-}
-
-a.text-danger:hover,
-a.text-danger:focus {
-  color: #a71d2a !important;
 }
 
 .text-light {
@@ -10535,7 +10507,7 @@ img::-moz-selection {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 2rem;
+    height: 4rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -10782,7 +10754,7 @@ section#contact {
   background-position: center;
 }
 section#contact .section-heading {
-  color: #fff;
+  color: #b1a688;
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
