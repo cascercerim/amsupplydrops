@@ -10782,10 +10782,10 @@ section#contact {
 .col-lg-8 {
   color: #ebecf0;
 }
-.d-block {
+div.d-block {
   color: #b1a688;
 }
-.phone {
+div.phone {
   color: #b1a688;
 }
 
