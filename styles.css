@@ -4315,7 +4315,7 @@ img .img-logo {
   display: inline-block;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
-  margin-right: 1rem;
+  /* margin-right: 1rem; */
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
@@ -10546,7 +10546,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #efefef;
-  background-image: url("/img/soldiers.jpg");
+  background-image: url("soldiers.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10783,6 +10783,9 @@ section#contact {
   color: #ebecf0;
 }
 .d-block {
+  color: #b1a688;
+}
+.phone {
   color: #b1a688;
 }
 
