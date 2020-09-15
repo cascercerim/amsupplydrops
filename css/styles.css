@@ -10502,6 +10502,11 @@ img::-moz-selection {
 }
 
 @media (min-width: 992px) {
+  .img-stamp {
+    width: 100%;
+    height: 100%;
+  }
+
   #mainNav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -10570,6 +10575,11 @@ header.masthead .masthead-heading {
 }
 
 @media (min-width: 768px) {
+  .img-stamp {
+    width: 100%;
+    height: 100%;
+  }
+
   header.masthead {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
@@ -10686,6 +10696,14 @@ header.masthead .masthead-heading {
 }
 
 @media (min-width: 768px) {
+  .img-stamp {
+    width: 100%;
+    height: 100%;
+  }
+  .img-logo {
+    width: 100%;
+    height: 100%;
+  }
   .timeline:before {
     left: 50%;
   }
@@ -10772,8 +10790,8 @@ section#contact {
 }
 
 .img-stamp {
-  width: 45%;
-  height: 45%;
+  width: 55%;
+  height: 55%;
 }
 
 p.mb-5 {
