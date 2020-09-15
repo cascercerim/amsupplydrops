@@ -73,8 +73,8 @@ body {
   background-color: #fff;
 }
 
-.col-lg-4 .m-auto .text-center {
-  color: #4b5320;
+.mail .phone {
+  color: #4b5320 !important;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
